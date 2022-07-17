@@ -1,0 +1,805 @@
+*********** SAR FDR BINARY **********
+record_seq_no		==>	16777216
+record_subtype_code1	==>	b
+record_type_code1	==>	ffffffc0
+record_subtype_code2	==>	12
+record_subtype_code3	==>	12
+record_length		==>	-805175296
+
+ read 1 items (12 bytes) at position 12
+*********** SAR FDR FIXED SEGMENT ***********
+A_E_flag  		==>	A 
+blank_2  		==>	  
+for_con_doc  		==>	CEOS-SAR-CCT
+for_con_doc_rev_level	==>	 A
+file_des_rev_level  	==>	 A
+softw_rel  		==>	 1.00       
+file_number  		==>	   1
+file_name  		==>	AL1 PSRASARL    
+rec_seq_loc_type_flag  	==>	FSEQ
+seq_number_loc		==>	       1
+seq_number_field_length	==>	   4
+rec_code_loc_type_flag 	==>	FTYP
+rec_code_loc		==>	       5
+rec_code_field_length  	==>	   4
+rec_len_loc_type_flag  	==>	FLGT
+rec_len_loc  		==>	       9
+rec_len_field_length  	==>	   4
+reserved_4  		==>	    
+reserved_segment  	==>	                                                                
+
+*********** SAR FDR VARIABLE SEG ***********
+n_data_set_summ_rec		==>	     1
+data_set_summ_rec_len		==>	  4096
+n_map_projec_rec		==>	     0
+map_projec_rec_len		==>	     0
+n_plat_pos_data_rec		==>	     1
+plat_pos_data_rec_len		==>	  4680
+n_att_data_rec			==>	     1
+att_data_rec_len		==>	  8192
+n_rad_data_rec			==>	     0
+rad_data_rec_len		==>	     0
+n_rad_comp_rec			==>	     0
+rad_comp_rec_len		==>	     0
+n_data_qua_summ_rec		==>	     0
+data_qua_summ_rec_len		==>	     0
+n_data_hist_rec			==>	     0
+data_hist_rec_len		==>	     0
+n_range_spectra_rec		==>	     0
+range_spectra_rec_len		==>	     0
+n_DEM_des_rec			==>	     0
+DEM_des_rec_len			==>	     0
+n_radar_par_update_rec		==>	     0
+radar_par_update_rec_len	==>	     0
+n_annotation_data_rec		==>	     0
+annotation_data_rec_len		==>	     0
+n_detailed_proc_rec		==>	     0
+detailed_proc_rec_len		==>	     0
+n_cal_rec			==>	     1
+cal_rec_len			==>	 13212
+n_GCP_rec			==>	     0
+GCP_rec_len			==>	     0
+spare_60			==>	                                                            
+n_facility_data_rec		==>	     1
+facility_data_rec_len		==>	 15400
+blanks_288			==>	00     1 4314000     1  345000     1  325000     1  325000     1    3072     1  511000     1 4370000     1  728000     1   15000                                                                                                                                                                
+
+*********** SAR FDR BINARY **********
+record_seq_no		==>	33554432
+record_subtype_code1	==>	12
+record_type_code1	==>	a
+record_subtype_code2	==>	12
+record_subtype_code3	==>	14
+record_length		==>	1048576
+
+ read 1 items (12 bytes) at position 732
+*********** DSS RECORD ***********
+dss_rec_seq_num  			==>	   1
+chan_ind  				==>	    
+reserved1  				==>	ALPSRP207600640 
+scene_number  				==>	                                
+input_scene_center_time  		==>	20091217061419510               
+spare1  				==>	                
+center_lat  				==>	                
+center_long  				==>	                
+center_heading  			==>	                
+ellipsoid_designator  			==>	GRS80           
+ellipsoid_semimajor_axis  		==>	    6378.1370000
+ellipsoid_semiminor_axis  		==>	    6356.7523141
+earth_constant  			==>	       5.9740000
+spare2  				==>	       3.9860050
+ellipsoid_j2  				==>	       0.1082629
+ellipsoid_j3  				==>	      -0.0000254
+ellipsoid_j4  				==>	      -0.0000162
+spare					==>	                
+reserved_new  				==>	                
+scene_centre_line_number  		==>	        
+scene_centre_pixel_number  		==>	        
+scene_length  				==>	                
+scene_width  				==>	                
+spare3  				==>	                
+nchan					==>	   1
+spare4  				==>	    
+mission_identifier  			==>	ALOS            
+sensor_id_and_mode  			==>	ALOS  -L -H 60-                 
+orbit_number  				==>	   20760
+lat_nadir_center  			==>	        
+long_nadir_center  			==>	        
+heading_nadir_center  			==>	        
+clock_angle  				==>	  90.000
+incidence_angle_center  		==>	  38.700
+radar_freq  				==>	        
+radar_wavelength  			==>	       0.2360571
+motion_compensation  			==>	00
+range_pulse_code_specifier  		==>	LINEAR FM CHIRP 
+range_pulse_amplitude_const  		==>	   1.2700000E+09
+range_pulse_amplitude_lin  		==>	   1.0370370E+12
+range_pulse_amplitude_quad  		==>	   0.0000000E+00
+range_pulse_amplitude_cube  		==>	   0.0000000E+00
+range_pulse_amplitude_quart  		==>	   0.0000000E+00
+range_pulse_phase_const  		==>	                
+range_pulse_phase_lin			==>	                
+range_pulse_phase_quad  		==>	                
+range_pulse_phase_cube  		==>	                
+range_pulse_phase_quart  		==>	                
+chirp_extraction_index  		==>	        
+spare5  				==>	        
+sampling_rate  			==>	      32.0000000
+range_gate_early_edge_start_image 	==>	    5645.6846100
+range_pulse_length  			==>	      27.0000000
+reserved2  				==>	YES 
+range_compressed_flag			==>	NOT 
+reserved3  				==>	      24.0000000      24.0000000
+quantisation_in_bits  			==>	       5
+quantizer_descriptor  			==>	UNIFORM I,Q 
+dc_bias_i  				==>	      15.5000000
+dc_bias_q  				==>	      15.5000000
+gain_imbalance  			==>	       1.0000000
+spare6  				==>	                                
+reserved4  				==>	      47.6000000
+antenna_mech_bor  			==>	      47.6000000
+reserved5  				==>	OFF 
+nominal_prf  				==>	 2159827.2138229
+reserved6  				==>	       5.2000000       1.3000000
+satelite_encoded_binary_time  		==>	       945063551
+satelite_clock_time  			==>	            20091217053856183000
+satelite_clock_increment  		==>	       9
+spare7  				==>	99999069
+processing_facility_identifier		==>	EOC-ALOS-DPS    
+processing_system_id  			==>	ALOS-DPS
+processing_version_id			==>	 1.00   
+reserved7  				==>	                1.0             
+product_type_id  			==>	UNPROCESSED SIGNAL DATA         
+alg_id  				==>	                                
+nlooks_az  				==>	                
+neff_looks_range  			==>	                
+bandwidth_look_az			==>	                
+bandwidth_look_range  			==>	                
+total_look_bandwidth_az  		==>	                
+total_look_bandwidth_range  		==>	                
+w_func_designator_az  			==>	                                
+w_func_designator_range  		==>	                                
+data_input_source  			==>	ONLINE          
+nom_res_3db_range  			==>	                
+nom_res_az				==>	                
+reserved8				==>	                                
+a_track_dop_freq_const_early_image  	==>	                
+a_track_dop_freq_lin_early_image  	==>	                
+a_track_dop_freq_quad_early_image  	==>	                
+spare8					==>	                
+c_track_dop_freq_const_early_image  	==>	                
+c_track_dop_freq_lin_early_image  	==>	                
+c_track_dop_freq_quad_early_image  	==>	                
+time_direction_along_pixel  		==>	        
+time_direction_along_line  		==>	ASCEND  
+a_track_dop_freq_rate_const_early_image	==>	                
+a_track_dop_freq_rate_lin_early_image  	==>	                
+a_track_dop_freq_rate_quad_early_image 	==>	                
+spare9					==>	                
+c_track_dop_freq_rate_const_early_image	==>	                
+c_track_dop_freq_rate_lin_early_image	==>	                
+c_track_dop_freq_rate_quad_early_image	==>	                
+spare10					==>	                
+line_content_indicator  		==>	RANGE   
+clut_lock_flag  			==>	    
+autofocussing_flag			==>	    
+line_spacing  				==>	                
+pixel_spacing_range  			==>	                
+range_compression_designator  		==>	                
+spare11  				==>	                
+spare12  				==>	                
+calibration_data_indicator		==> 	   0
+start_line_upper_image			==>	       0
+stop_line_upper_image			==>	       0
+start_line_bottom_image		==>	       0
+stop_line_bottom_image			==>	       0
+PRF_switch				==>	   0
+PRF_switch_line			==>	       1
+spare13				==>	                
+yaw_steering_mode			==>	   0
+parameter_table			==>	   7
+nom_offnadir_angle			==>	      34.3000000
+antenna_beam_number			==>	   7
+spare14				==>	                            
+spare15				==>	                                                                                                                        
+num_anno_points			==>	       0
+spare16				==>	        
+image_annotation			==>	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+spare17				==>	                          
+*********** SAR FDR BINARY **********
+record_seq_no		==>	50331648
+record_subtype_code1	==>	12
+record_type_code1	==>	1e
+record_subtype_code2	==>	12
+record_subtype_code3	==>	14
+record_length		==>	1209139200
+
+ read 1 items (12 bytes) at position 4828
+*********** PLATFORM POSITION VECTOR **********
+orbital_elements		==>	  |2                               |
+orbital_element_1		==>	  |                |
+orbital_element_2		==>	  |                |
+orbital_element_3		==>	  |                |
+orbital_element_4		==>	  |                |
+orbital_element_5		==>	  |                |
+orbital_element_6		==>	  |                |
+num_data_points		==>	  |  28|
+year_of_data_points		==>	  |2009|
+month_of_data_points		==>	  |  12|
+day_of_data_points		==>	  |  17|
+day_of_data_points_in_year	==>	  | 351|
+sec_of_day_of_data		==>	  | 2.172000000000000E+04|
+data_points_time_gap		==>	  | 6.000000000000000E+01|
+ref_coord_sys			==>	  |ECR                                                             |
+greenwhich_mean_hour_angle	==>	  |                      |
+a_track_pos_err		==>	  |       1.0000000|
+c_track_pos_err		==>	  |       1.0000000|
+radial_pos_err			==>	  |       1.0000000|
+a_track_vel_err		==>	  |       0.0166667|
+c_track_vel_err		==>	  |       0.0166667|
+radial_vel_err			==>	  |       0.0166667|
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.442640732168265E+06
+pos_y	==>        -6.453755491504731E+06
+pos_z	==>        -1.572479859758347E+06
+vel_x	==>        -2.075022654353822E+03
+vel_y	==>        -9.709242256435411E+02
+vel_z	==>         7.240867214952838E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.562349555351978E+06
+pos_y	==>        -6.498431194247548E+06
+pos_z	==>        -1.135128667684987E+06
+vel_x	==>        -1.913259803226698E+03
+vel_y	==>        -5.179760135623397E+02
+vel_z	==>         7.332574431179883E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.671997077623309E+06
+pos_y	==>        -6.515897313378835E+06
+pos_z	==>        -6.931662837512308E+05
+vel_x	==>        -1.739757849158811E+03
+vel_y	==>        -6.426270329151502E+01
+vel_z	==>         7.394517873445226E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.770899746860039E+06
+pos_y	==>        -6.506166344455535E+06
+pos_z	==>        -2.483873237209643E+05
+vel_x	==>        -1.555220732882210E+03
+vel_y	==>         3.882697245920006E+02
+vel_z	==>         7.426425330269132E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.858418160846271E+06
+pos_y	==>        -6.469367321126894E+06
+pos_z	==>         1.974010152012706E+05
+vel_x	==>        -1.360415644073371E+03
+vel_y	==>         8.376841279352067E+02
+vel_z	==>         7.428149842219053E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.933960763585406E+06
+pos_y	==>        -6.405745017051814E+06
+pos_z	==>         6.423865026420251E+05
+vel_x	==>        -1.156169680000653E+03
+vel_y	==>         1.282061146143737E+03
+vel_z	==>         7.399670722616274E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.996987329105313E+06
+pos_y	==>        -6.315658609050087E+06
+pos_z	==>         1.084759468551754E+06
+vel_x	==>        -9.433660757980292E+02
+vel_y	==>         1.719508209082393E+03
+vel_z	==>         7.341094029112829E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -3.047012205930979E+06
+pos_y	==>        -6.199579797531215E+06
+pos_z	==>         1.522720404618907E+06
+vel_x	==>        -7.229400234604317E+02
+vel_y	==>         2.148168613788276E+03
+vel_z	==>         7.252652311947178E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -3.083607300906282E+06
+pos_y	==>        -6.058090385168706E+06
+pos_z	==>         1.954487522129727E+06
+vel_x	==>        -4.958741623675427E+02
+vel_y	==>         2.566230419306702E+03
+vel_z	==>         7.134703384357006E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -3.106404783992143E+06
+pos_y	==>        -5.891879342670108E+06
+pos_z	==>         2.378304211179767E+06
+vel_x	==>        -2.631938155803159E+02
+vel_y	==>         2.971934605548092E+03
+vel_z	==>         6.987728396529885E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -3.115099500295700E+06
+pos_y	==>        -5.701739397096228E+06
+pos_z	==>         2.792446379257746E+06
+vel_x	==>        -2.596195999128113E+01
+vel_y	==>         3.363582977365323E+03
+vel_z	==>         6.812329699715534E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -3.109451070740969E+06
+pos_y	==>        -5.488563147643374E+06
+pos_z	==>         3.195229638226981E+06
+vel_x	==>         2.147260696311664E+02
+vel_y	==>         3.739545884576643E+03
+vel_z	==>         6.609227855270585E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -3.089285675192959E+06
+pos_y	==>        -5.253338738343854E+06
+pos_z	==>         3.585016292334109E+06
+vel_x	==>         4.577478618330402E+02
+vel_y	==>         4.098269293284819E+03
+vel_z	==>         6.379258103035650E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -3.054497515808230E+06
+pos_y	==>        -4.997145118258576E+06
+pos_z	==>         3.960222104555908E+06
+vel_x	==>         7.019593377512786E+02
+vel_y	==>         4.438281497644966E+03
+vel_z	==>         6.123366472135829E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -3.005049950979709E+06
+pos_y	==>        -4.721146907969012E+06
+pos_z	==>         4.319322812415279E+06
+vel_x	==>         9.462002746060950E+02
+vel_y	==>         4.758199507950174E+03
+vel_z	==>         5.842605262287446E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.940976304421144E+06
+pos_y	==>        -4.426588902114884E+06
+pos_z	==>         4.660860352599917E+06
+vel_x	==>         1.189299594466875E+03
+vel_y	==>         5.056734715800253E+03
+vel_z	==>         5.538127978681820E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.862380350781767E+06
+pos_y	==>        -4.114790251938337E+06
+pos_z	==>         4.983448787003148E+06
+vel_x	==>         1.430081042622986E+03
+vel_y	==>         5.332698047685552E+03
+vel_z	==>         5.211184466871871E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.769436433269696E+06
+pos_y	==>        -3.787138336534118E+06
+pos_z	==>         5.285779919198719E+06
+vel_x	==>         1.667369673531936E+03
+vel_y	==>         5.585005104265926E+03
+vel_z	==>         4.863115148828448E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.662389204784415E+06
+pos_y	==>        -3.445082362838311E+06
+pos_z	==>         5.566628519857348E+06
+vel_x	==>         1.899997600112685E+03
+vel_y	==>         5.812679811601390E+03
+vel_z	==>         4.495344073741110E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.541553055370061E+06
+pos_y	==>        -3.090126780982182E+06
+pos_z	==>         5.824857161849474E+06
+vel_x	==>         2.126809067634690E+03
+vel_y	==>         6.014857334280039E+03
+vel_z	==>         4.109372954620227E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.407311213268011E+06
+pos_y	==>        -2.723824527060939E+06
+pos_z	==>         6.059420693474779E+06
+vel_x	==>         2.346666119610400E+03
+vel_y	==>         6.190786612213016E+03
+vel_z	==>         3.706774897225670E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.260114519134387E+06
+pos_y	==>        -2.347770132274766E+06
+pos_z	==>         6.269370347716049E+06
+vel_x	==>         2.558453875153843E+03
+vel_y	==>         6.339832712556976E+03
+vel_z	==>         3.289188595950857E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -2.100479878110982E+06
+pos_y	==>        -1.963592675176999E+06
+pos_z	==>         6.453857472547787E+06
+vel_x	==>         2.761085929825506E+03
+vel_y	==>         6.461479235907353E+03
+vel_z	==>         2.858311339212172E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -1.928988392151079E+06
+pos_y	==>        -1.572948620217913E+06
+pos_z	==>         6.612136845596854E+06
+vel_x	==>         2.953509739768774E+03
+vel_y	==>         6.555330111249614E+03
+vel_z	==>         2.415892301526766E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -1.746283164877604E+06
+pos_y	==>        -1.177514542045286E+06
+pos_z	==>         6.743569542732664E+06
+vel_x	==>         3.134711901368437E+03
+vel_y	==>         6.621111094872712E+03
+vel_z	==>         1.963724050967565E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -1.553066825660618E+06
+pos_y	==>        -7.789798350970935E+05
+pos_z	==>         6.847625282500056E+06
+vel_x	==>         3.303722237304614E+03
+vel_y	==>         6.658668804857424E+03
+vel_z	==>         1.503634251846486E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -1.350098823548081E+06
+pos_y	==>        -3.790395146802434E+05
+pos_z	==>         6.923884347409396E+06
+vel_x	==>         3.459617661273871E+03
+vel_y	==>         6.667969105869228E+03
+vel_z	==>         1.037479928328682E+03
+
+*********** PLATFORM VECTOR **********
+pos_x	==>        -1.138192458887262E+06
+pos_y	==>         2.061293207629558E+04
+pos_z	==>         6.972039192347620E+06
+vel_x	==>         3.601527074295728E+03
+vel_y	==>         6.649097177738544E+03
+vel_z	==>         5.671420166763314E+02
+
+*********** SAR FDR BINARY **********
+record_seq_no		==>	67108864
+record_subtype_code1	==>	12
+record_type_code1	==>	28
+record_subtype_code2	==>	12
+record_subtype_code3	==>	14
+record_length		==>	2097152
+
+ read 1 items (12 bytes) at position 9508
+*********** ATTITUDE INFO **********
+num_att_data_points		==>	|  22|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22449003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.271000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  1.200000E-03|
+roll_rate		==>		|  1.000000E-04|
+yaw_rate		==>		|  2.200000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22450003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -2.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.268000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		| -1.000000E-04|
+roll_rate		==>		|  1.000000E-04|
+yaw_rate		==>		|  2.100000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22451003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.266000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		| -1.000000E-04|
+roll_rate		==>		| -1.000000E-04|
+yaw_rate		==>		|  1.900000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22452003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.264000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		| -3.000000E-04|
+roll_rate		==>		|  1.000000E-04|
+yaw_rate		==>		|  2.300000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22453003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.262000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  1.000000E-04|
+roll_rate		==>		| -1.000000E-04|
+yaw_rate		==>		|  2.100000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22454003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.260000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		| -3.000000E-04|
+roll_rate		==>		|  0.000000E+00|
+yaw_rate		==>		|  2.100000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22455003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.258000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  0.000000E+00|
+roll_rate		==>		|  0.000000E+00|
+yaw_rate		==>		|  2.200000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22456003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.255000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		| -1.000000E-04|
+roll_rate		==>		|  0.000000E+00|
+yaw_rate		==>		|  2.200000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22457003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.253000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		| -2.000000E-04|
+roll_rate		==>		|  1.000000E-04|
+yaw_rate		==>		|  1.900000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22458003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.251000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  1.000000E-04|
+roll_rate		==>		|  1.000000E-04|
+yaw_rate		==>		|  2.200000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22459003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.249000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  1.000000E-04|
+roll_rate		==>		| -1.000000E-04|
+yaw_rate		==>		|  2.200000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22460003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.247000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  0.000000E+00|
+roll_rate		==>		|  0.000000E+00|
+yaw_rate		==>		|  2.100000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22461003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.245000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  3.000000E-04|
+roll_rate		==>		|  1.000000E-04|
+yaw_rate		==>		|  2.100000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22462003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.242000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  1.000000E-04|
+roll_rate		==>		|  1.000000E-04|
+yaw_rate		==>		|  2.100000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22463003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -3.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.240000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  3.000000E-04|
+roll_rate		==>		|  1.000000E-04|
+yaw_rate		==>		|  2.200000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22464003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -2.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.238000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  1.000000E-04|
+roll_rate		==>		|  0.000000E+00|
+yaw_rate		==>		|  1.900000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22465003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -2.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.236000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  0.000000E+00|
+roll_rate		==>		|  4.000000E-04|
+yaw_rate		==>		|  2.200000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22466003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -2.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.234000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		| -3.000000E-04|
+roll_rate		==>		|  0.000000E+00|
+yaw_rate		==>		|  2.100000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22467003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -2.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.231000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  2.000000E-04|
+roll_rate		==>		|  2.000000E-04|
+yaw_rate		==>		|  2.200000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22468003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -2.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.229000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  1.000000E-04|
+roll_rate		==>		| -1.000000E-04|
+yaw_rate		==>		|  2.200000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22469003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -2.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.227000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		|  0.000000E+00|
+roll_rate		==>		|  0.000000E+00|
+yaw_rate		==>		|  2.200000E-03|
+*********** ATTITUDE DATA **********
+day_of_year		==>		| 351|
+millisecond_day		==>		|22470003|
+pitch_data_quality		==>		|   0|
+roll_data_quality		==>		|   0|
+yaw_data_quality		==>		|   0|
+pitch		==>		| -2.000000E-03|
+roll		==>		| -1.000000E-03|
+yaw		==>		| -3.225000E+00|
+pitch_rate_data_quality		==>		|   0|
+roll_rate_data_quality		==>		|   0|
+yaw_rate_data_quality		==>		|   0|
+pitch_rate		==>		| -2.000000E-04|
+roll_rate		==>		| -1.000000E-04|
+yaw_rate		==>		|  2.200000E-03|
