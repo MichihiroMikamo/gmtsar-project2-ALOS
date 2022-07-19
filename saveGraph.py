@@ -5,7 +5,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-infilename = 'data/RangeReferenceChirpExt.txt'
+infilename = 'data/RangeReferenceChirpExtFFT.txt'
 data = np.loadtxt(infilename)
 if data is None:
     print('read data error...')
