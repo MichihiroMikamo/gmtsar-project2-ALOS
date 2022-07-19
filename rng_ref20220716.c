@@ -123,12 +123,26 @@ void rng_ref(void *API, int ranfft, float delr, fcomplex *ref1) {
 			ref1[k].i = 0.0f;
 		}
 	}
+	FILE *fp3;
+	fp3 = fopen("data/RangeReferenceChirpExt.txt", "w");
+	for (int i = 0; i < npts; i++){
+		fprintf(fp3, "%d %.9f\n", i, ref1[i].r);
+	}
+	fclose(fp3);
 
 	/* Calculate fft of range reference function */
 
 	// dir = -1;
 	// cfft1d_(&ranfft,ref1,&dir);
 	GMT_FFT_1D(API, (float *)ref1, ranfft, GMT_FFT_FWD, GMT_FFT_COMPLEX);
+
+	FILE *fp4;
+	fp4 = fopen("data/RangeReferenceChirpExtFFT.txt", "w");
+	for (int i = 0; i < npts; i++){
+		fprintf(fp4, "%d %.9f\n", i, ref1[i].r);
+	}
+	fclose(fp4);
+
 
 	/* zero out dc and caltone location */
 

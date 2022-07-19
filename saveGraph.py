@@ -5,7 +5,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-infilename = 'data/AzimuthReference0.txt'
+infilename = 'data/RangeReferenceChirpExt.txt'
 data = np.loadtxt(infilename)
 if data is None:
     print('read data error...')
