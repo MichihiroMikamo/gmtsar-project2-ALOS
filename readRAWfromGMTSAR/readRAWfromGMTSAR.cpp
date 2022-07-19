@@ -410,7 +410,7 @@ int main(int argc, char *argv[])
 	readRawfromGMTSAR(infilename2);
 
 	std::string infilename3 = "data/CopyData_RangeCompressed.raw";
-	readRawfromGMTSARRangeCompressed(infilename3);
+	//readRawfromGMTSARRangeCompressed(infilename3);
 
 
 
